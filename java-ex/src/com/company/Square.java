@@ -1,14 +1,14 @@
 package com.company;
 
-public class Draw {
+public class Square {
 
     private int sideSize;
 
-    public Draw(int sideSize) {
+    public Square(int sideSize) {
         this.sideSize = sideSize;
     }
 
-    public void draw() {
+    public void drawSquare() {
         for (int i = 1; i <= sideSize; i++) {
             for (int j = 1; j <= sideSize; j++) {
                 if (i == 1 || i == sideSize)
